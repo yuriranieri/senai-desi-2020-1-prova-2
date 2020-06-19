@@ -1,0 +1,63 @@
+body
+{
+    margin: 0px;
+}
+header 
+{
+    overflow: hidden;
+    background-color: bisque;
+    padding: 5px;
+    width: 100%;
+}
+img.img_logo
+{
+    width: 80px;
+}
+header nav 
+{
+    float: right;
+    line-height: 100px;
+    margin-right: 20px;
+}
+nav a 
+{
+    color:darkred;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 12px;
+    border: 1px solid darkred;
+    vertical-align: middle;
+}
+header a:hover 
+{
+    background-color: darkred;
+    color: bisque;
+}
+@media screen and (max-width:600px) 
+{
+    nav a 
+    {
+        display: block;
+        text-align: center;
+    }
+}
+
+img.hospital
+{
+    height: 400px;
+    width: 600px;
+}
+.container
+{
+    text-align: center;
+}
+div.card
+{
+    width: 18rem;
+    height: 15rem;
+    float: left;
+    text-align: center;
+}
+
